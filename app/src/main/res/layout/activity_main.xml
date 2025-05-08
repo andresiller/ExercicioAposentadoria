@@ -13,7 +13,8 @@
         android:layout_width="match_parent"
         android:layout_height="48dp"
         android:padding="8dp"
-        android:id="@+id/spinner_sexo"/>
+        android:id="@+id/spinner_sexo"
+        />
 
     <EditText
         android:layout_width="match_parent"
@@ -21,7 +22,11 @@
         android:padding="8dp"
         android:hint="Digite sua idade"
         android:id="@+id/edit_idade"
-        android:inputType="number"/>
+        android:inputType="number"
+        android:textColor="@color/black"
+        android:textSize="15dp"
+        android:maxLength="48"
+        />
 
     <Button
         android:layout_width="match_parent"
@@ -29,6 +34,12 @@
         android:padding="8dp"
         android:text="Calcular"
         android:id="@+id/button_calcular"
+        android:fontFamily="sans-serif-medium"
+        android:textColor="@color/white"
+        android:textSize="15dp"
+        android:backgroundTint="@color/blue"
+
+
         />
 
     <TextView
@@ -39,12 +50,18 @@
         android:text="Resultado"
         android:gravity="center"
         android:layout_marginBottom="10dp"
+        android:fontFamily="sans-serif-medium"
+        android:textColor="@color/black"
+        android:backgroundTint="@color/white"
+        android:padding="8dp"
         />
 
     <TextView
         android:id="@+id/textView"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="André Luiz Siller de Deus" />
+        android:text="André Luiz Siller de Deus"
+        android:textAlignment="center"/>
+
 
 </LinearLayout>
